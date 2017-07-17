@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Chango!{% endblock %}</title>
+        {% block stylesheets %}
+             <link rel="stylesheet" hrefer="{{ asset('public/css/style.css')}}"/>
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon2.ico') }}" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+        
+         <h2>Amor y deseo son dos cosas diferentes;no todo lo que se ama se desea, ni todo lo que  se desea se ama.
+Miguel de Cervantes (1547-1616) Escritor español.</h2>
+       
+    </body>
+</html>
