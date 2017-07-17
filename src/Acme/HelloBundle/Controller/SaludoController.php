@@ -3,7 +3,6 @@
 namespace Acme\HelloBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-<h2
 
 class SaludoController extends Controller
 {
@@ -12,6 +11,6 @@ class SaludoController extends Controller
     {
      
         
-        return $this->render('AcmeHelloBundle:Default:index.html.twig','user'=>556);
+        return $this->render('AcmeHelloBundle:Default:index.html.twig', array('user'=>556));
     }
 }
